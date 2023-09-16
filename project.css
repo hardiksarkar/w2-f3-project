@@ -42,13 +42,17 @@ svg{
 }
 #movie-card{
     position: relative;
+    height: 20rem;
+    width: 15rem;
 }
 #movie-card>img{
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
 }
 #movie-number{
     position: absolute;
-    bottom:-50px;
+    bottom:-70px;
     left: -10px;
     font-size: 8rem;
     text-shadow: -0.5px -0.5px 0 #0296E5, 0.5px -0.5px 0 #0296E5, -0.5px 0.5px 0 #0296E5, 0.5px 0.5px 0 #0296E5;
