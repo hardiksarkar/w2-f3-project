@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #242A32;
+    color: white;
+}
+
+#heading{
+    text-shadow: -0.5px -0.5px 0 #0296E5, 0.5px -0.5px 0 #0296E5, -0.5px 0.5px 0 #0296E5, 0.5px 0.5px 0 #0296E5;
+    color: #242A32;
+}
+
+#api-div,#search-div{
+    background-color: #3A3F47;
+    border-radius: 10px;
+}
+
+#api-div>input,#search-div>input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+svg{
+    cursor: pointer;
+}
+
+#movies-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#movies-container>div{
+    margin: 1rem;
+}
+#movie-card{
+    position: relative;
+}
+#movie-card>img{
+    border-radius: 10px;
+}
+#movie-number{
+    position: absolute;
+    bottom:-50px;
+    left: -10px;
+    font-size: 8rem;
+    text-shadow: -0.5px -0.5px 0 #0296E5, 0.5px -0.5px 0 #0296E5, -0.5px 0.5px 0 #0296E5, 0.5px 0.5px 0 #0296E5;
+    color: #242A32;
+}
